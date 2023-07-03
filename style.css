@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Gentium+Book+Plus&family=Roboto:ital,wght@1,300&display=swap');
+/* font-family: 'Arima', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    color: white;
+    background-color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    margin: 4vh 2vw;
+    cursor: pointer;
+}
+
+.blue {
+    color: blue;
+    margin: 0vh 1vw;
+}
+
+.icon {
+    display: flex;
+    margin: 3.3vh 2vw 0vh 0vw;
+}
+
+.icon img {
+    height: 5vh;
+}
+
+ul {
+    display: flex;
+    padding: 0vh 1vw;
+
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+ul img {
+    height: 10vh;
+    cursor: pointer;
+}
+
+header {
+    color: white;
+    background-color: black;
+    display: flex;
+    padding-bottom: 5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.info {
+    margin: 36vh 12vw auto 6vw;
+    animation-name: infoani;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes infoani {
+    0% {
+        top: 80vh;
+        opacity: 0.1;
+    }
+
+    100% {
+        top: 0vh;
+        opacity: 1;
+    }
+}
+
+.info button {
+    margin: 2vh 0vw;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: white;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+}
+
+.info button:hover {
+    color: aliceblue;
+    background-color: blue;
+}
+
+.info span {
+    display: block;
+    font-weight: 800;
+    font-size: 2em;
+    margin: 1vh 0vw;
+    color: blue;
+}
+
+.img {
+    animation-duration: 5s;
+    position: relative;
+    height: 70vh;
+    margin: 10vh auto;
+}
+
+.rimg {
+    animation-name: rani;
+}
+
+@keyframes rani {
+    0% {
+        left: 30vh;
+        opacity: 0.1;
+    }
+
+    100% {
+        left: 0vh;
+        opacity: 1;
+    }
+}
+
+.limg {
+    animation-name: lani;
+}
+
+@keyframes lani {
+    0% {
+        right: 30vh;
+        opacity: 0.1;
+    }
+
+    100% {
+        right: 0vh;
+        opacity: 1;
+    }
+}
+
+main {
+    color: black;
+    display: flex;
+    padding: 8vh;
+    height: 85%;
+}
+
+.aboutimg {
+    border-radius: 5%;
+    height: 45vh;
+}
+
+.aboutleft {
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.aboutleft span {
+    color: blue;
+}
+
+.aboutleft h1 {
+    margin-bottom: 2.5vh;
+}
+
+.aboutleft p button {
+    margin: 2vh 0vw;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+}
+
+.aboutleft p button:hover {
+    color: blue;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+
+.aboutright {
+    margin: auto;
+}
+
+.body {
+    background-color: antiquewhite;
+    height: 60%;
+    display: flex;
+    padding: 20vh 5vw;
+}
+
+.left {
+    margin: auto;
+}
+
+.right {
+    margin: auto;
+    color: black;
+    word-spacing: 2.2rem;
+    font-size: 5rem;
+}
+
+.bodyimg {
+    height: 50vh;
+    border-radius: 10%;
+}
+
+.right p {
+    text-align: center;
+    color: rgb(156, 148, 124);
+    letter-spacing: 2rem;
+}
+
+.right span {
+    color: blue;
+}
+
+footer {
+    background-color: rgb(223, 227, 227);
+    color: black;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+footer span {
+    color: blue;
+}
+
+.footer {
+    display: flex;
+    padding: 0px 50px 20px 50px;
+}
+
+footer h3 {
+    padding-bottom: 10vh;
+}
+
+form input,
+form button,
+form textarea {
+    margin: 2vh;
+    text-align: center;
+}
+
+.detail a {
+    text-decoration: none;
+    color: black;
+}
+
+.detail h2 {
+    margin-top: 5vh;
+}
+
+.link img {
+    height: 12vh;
+}
+
+.detail {
+    margin: auto auto;
+}
+
+.rajmon {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    padding: 2vh 0vw;
+}
+
+.rajmon span {
+    font-size: 2rem;
+    color: blue;
+}
+
+.services {
+    padding-top: 10vh;
+    height: 90%;
+}
+
+.services h1,
+.services h3 {
+    text-align: center;
+}
+
+.services span {
+    font-size: 2rem;
+    color: blue;
+}
+
+.cards {
+    margin: 50px 0px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    grid-gap: auto;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    margin: 4% auto;
+    background-color: azure;
+    height: 270px;
+    width: 197px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards img {
+    height: 160px;
+    margin-top: 10px;
+}
+
+.st,
+.nd,
+.rd {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.btn {
+    margin: 2vh 0vw;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: black;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+}
+
+.form label {
+    font-family: 'Arima', cursive;
+    margin-left: 70px;
+}
+
+.members {
+    padding-top: 10vh;
+    height: 90%;
+    background-color: rgb(238, 208, 170);
+}
+
+.members h1,
+.members h3 {
+    text-align: center;
+}
+
+.work {
+    color: black;
+    display: flex;
+    padding: 15vh 5vw;
+}
+
+.blue {
+    color: blue;
+}
+
+.workleft {
+    margin: auto;
+}
+
+.workright {
+    margin: auto;
+    color: black;
+    word-spacing: 2.2rem;
+    font-size: 2rem;
+}
+
+.workimg {
+    height: 350px;
+    height: 280px;
+    border-radius: 10%;
+}
+
+.workright p {
+    text-align: center;
+    color: rgb(156, 148, 124);
+    letter-spacing: 2px;
+}
+
+.by {
+    color: black;
+    font-size: small;
+    word-spacing: normal;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    margin-top: 20px;
+}
+
+.ht-wt {
+    height: 350px;
+    width: 300px;
+}
+
+.form2 {
+    border: 2px solid black;
+
+}
